@@ -1,0 +1,225 @@
+{
+  "name": "kusama",
+  "id": "kusama",
+  "chainType": "Live",
+  "bootNodes": [],
+  "telemetryEndpoints": [
+    [
+      "/dns/telemetry.polkadot.io/tcp/443/x-parity-wss/%2Fsubmit%2F",
+      0
+    ]
+  ],
+  "protocolId": "dot",
+  "properties": null,
+  "forkBlocks": null,
+  "badBlocks": null,
+  "lightSyncState": null,
+  "codeSubstitutes": {},
+  "genesis": {
+    "runtime": {
+      "system": {},
+      "babe": {
+        "authorities": [],
+        "epochConfig": {
+          "c": [
+            1,
+            4
+          ],
+          "allowed_slots": "PrimaryAndSecondaryVRFSlots"
+        }
+      },
+      "indices": {
+        "indices": []
+      },
+      "balances": {
+        "balances": [
+          [
+            "5CUjaNrhtG4Qq6mGA5qkaWATSLvJ7T2D4doKh9rtATB6Kioe",
+            150000000000000000000000
+          ],
+          [
+            "5E7Rtje6zEnTqeioAZFMpviKd4KtcFGJZsj68X2P9GrwGhhn",
+            1000000000000
+          ],
+          [
+            "5FbQXBS1dhC2mYKYWk44My1sHsCbJtD2T3DXFspuzGnVwVKo",
+            1000000000000
+          ],
+          [
+            "5En5ALbuducuMzMzusRJaiJpDKYaruC5StNGk8Q59W939S9a",
+            1000000000000
+          ]
+        ]
+      },
+      "staking": {
+        "historyDepth": 84,
+        "validatorCount": 50,
+        "minimumValidatorCount": 4,
+        "invulnerables": [
+          "5E7Rtje6zEnTqeioAZFMpviKd4KtcFGJZsj68X2P9GrwGhhn",
+          "5FbQXBS1dhC2mYKYWk44My1sHsCbJtD2T3DXFspuzGnVwVKo",
+          "5En5ALbuducuMzMzusRJaiJpDKYaruC5StNGk8Q59W939S9a"
+        ],
+        "forceEra": "ForceNone",
+        "slashRewardFraction": 100000000,
+        "canceledPayout": 0,
+        "stakers": [
+          [
+            "5E7Rtje6zEnTqeioAZFMpviKd4KtcFGJZsj68X2P9GrwGhhn",
+            "5Ev5BqU9VZStfbi77eWYevF8UZJemyq4TmgnfZsAFfn3txy8",
+            100000000000000,
+            "Validator"
+          ],
+          [
+            "5FbQXBS1dhC2mYKYWk44My1sHsCbJtD2T3DXFspuzGnVwVKo",
+            "5DkAdUdE3hNjnQgJPEMDewDaaMuR4pvxFnnkok78VM7PGmJi",
+            100000000000000,
+            "Validator"
+          ],
+          [
+            "5En5ALbuducuMzMzusRJaiJpDKYaruC5StNGk8Q59W939S9a",
+            "5GLF1CzPEEFBCGnaH5LM5TgDisqdgavi5826zxqke6P2p33F",
+            100000000000000,
+            "Validator"
+          ]
+        ],
+        "minNominatorBond": 0,
+        "minValidatorBond": 0,
+        "maxValidatorCount": null,
+        "maxNominatorCount": null
+      },
+      "session": {
+        "keys": [
+          [
+            "5E7Rtje6zEnTqeioAZFMpviKd4KtcFGJZsj68X2P9GrwGhhn",
+            "5E7Rtje6zEnTqeioAZFMpviKd4KtcFGJZsj68X2P9GrwGhhn",
+            {
+              "grandpa": "5DSxKn8VnDVRPTeN5Lmhx5w5Ee4HS221HhpZ5trxvKmxDDUp",
+              "babe": "5GWmJrvYCeE98WyKTXBMJXZDRojscktaN2JLmKGSZ4LkipyV",
+              "im_online": "5GWmZkaxfoxrGqacTcM3RzRkLBtZUvtLSoANzmzboBEiMFAc",
+              "para_validator": "5EqehvCN1swfXbBxU6H1YFRZPUTmrEerc3k6cZ95e2uCSFxn",
+              "para_assignment": "5HGaWPcwU9mYhD8fTrVbsS71hVefUhfDEAk5zvXCtuh2AKK8",
+              "authority_discovery": "5DFxU4yyYKtxu6eLRQXYas44fmJMa97bEWXsM2yVnxJNV1Em"
+            }
+          ],
+          [
+            "5FbQXBS1dhC2mYKYWk44My1sHsCbJtD2T3DXFspuzGnVwVKo",
+            "5FbQXBS1dhC2mYKYWk44My1sHsCbJtD2T3DXFspuzGnVwVKo",
+            {
+              "grandpa": "5CaYhaGTTPKTr8ziGWVn9c8ZYYFvY6gy4QyMwrkk8U4PG1m6",
+              "babe": "5HYuEuubcpe6MUQF3tJxphkDffDGfSUcrwdXbj2YYHHfsnES",
+              "im_online": "5F7Ta5RYjnc46RbNhpjcd3aZWN41PM32xyzPayDvtkeycht1",
+              "para_validator": "5DUMvfpmBQnB3Lq2xDTnFWmroGjtQyuaLj6mKa9JMp2JUTUi",
+              "para_assignment": "5FBtXnVXJEN9GYxfeYsCwZaK3R2oFrHnXatPddQ3dtghnvic",
+              "authority_discovery": "5GFETjWsRYcDbuLtocL9ch8z7nrCGWkPT1gJ9vDrNqnBD7Cy"
+            }
+          ],
+          [
+            "5En5ALbuducuMzMzusRJaiJpDKYaruC5StNGk8Q59W939S9a",
+            "5En5ALbuducuMzMzusRJaiJpDKYaruC5StNGk8Q59W939S9a",
+            {
+              "grandpa": "5FB2VHkJENoqW1MQD95dDJE2nG2d9Q2cN1wHh2h7bRAEw7CU",
+              "babe": "5H8ZCQBbrcaodpfWRBbCop9QoDLhscTW2534KNQn6k4BumNZ",
+              "im_online": "5D5Mgje2729v6FdS6VRuPS6fSRPNMRZbq17t9mUyaYgtcmLL",
+              "para_validator": "5F6gcLhaAjBNfagNpbWhHhaQ2aA1XfLeD2rCtpRKtRELJdrC",
+              "para_assignment": "5CMcjek7PYiaMy97ZotH1xUYSGs1LDm4hWpnc48Ahh7Nupp2",
+              "authority_discovery": "5Cf58FwXoGKQDXotdT8DU74nULbnyJnPdqGe7oS2cU4E4CBM"
+            }
+          ]
+        ]
+      },
+      "grandpa": {
+        "authorities": []
+      },
+      "imOnline": {
+        "keys": []
+      },
+      "authorityDiscovery": {
+        "keys": []
+      },
+      "democracy": {
+        "phantom": null
+      },
+      "council": {
+        "phantom": null,
+        "members": []
+      },
+      "technicalCommittee": {
+        "phantom": null,
+        "members": []
+      },
+      "phragmenElection": {
+        "members": []
+      },
+      "technicalMembership": {
+        "members": [],
+        "phantom": null
+      },
+      "treasury": null,
+      "claims": {
+        "claims": [],
+        "vesting": []
+      },
+      "vesting": {
+        "vesting": []
+      },
+      "gilt": null,
+      "configuration": {
+        "config": {
+          "max_code_size": 3145728,
+          "max_head_data_size": 32768,
+          "max_upward_queue_count": 8,
+          "max_upward_queue_size": 1048576,
+          "max_upward_message_size": 51200,
+          "max_upward_message_num_per_candidate": 5,
+          "hrmp_max_message_num_per_candidate": 5,
+          "validation_upgrade_cooldown": 2,
+          "validation_upgrade_delay": 2,
+          "max_pov_size": 5242880,
+          "max_downward_message_size": 1048576,
+          "ump_service_total_weight": 100000000000,
+          "hrmp_max_parachain_outbound_channels": 4,
+          "hrmp_max_parathread_outbound_channels": 4,
+          "hrmp_sender_deposit": 0,
+          "hrmp_recipient_deposit": 0,
+          "hrmp_channel_max_capacity": 8,
+          "hrmp_channel_max_total_size": 8192,
+          "hrmp_max_parachain_inbound_channels": 4,
+          "hrmp_max_parathread_inbound_channels": 4,
+          "hrmp_channel_max_message_size": 1048576,
+          "code_retention_period": 1200,
+          "parathread_cores": 0,
+          "parathread_retries": 0,
+          "group_rotation_frequency": 20,
+          "chain_availability_period": 4,
+          "thread_availability_period": 4,
+          "scheduling_lookahead": 0,
+          "max_validators_per_core": null,
+          "max_validators": null,
+          "dispute_period": 6,
+          "dispute_post_conclusion_acceptance_period": 100,
+          "dispute_max_spam_slots": 2,
+          "dispute_conclusion_by_time_out_period": 200,
+          "no_show_slots": 2,
+          "n_delay_tranches": 25,
+          "zeroth_delay_tranche_width": 0,
+          "needed_approvals": 2,
+          "relay_vrf_modulo_samples": 2,
+          "ump_max_individual_weight": 20000000000,
+          "pvf_checking_enabled": false,
+          "pvf_voting_ttl": 2,
+          "minimum_validation_upgrade_delay": 5
+        }
+      },
+      "paras": {
+        "paras": []
+      },
+      "hrmp": {
+        "preopenHrmpChannels": []
+      },
+      "xcmPallet": {
+        "safeXcmVersion": 2
+      }
+    }
+  }
+}
